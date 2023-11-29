@@ -1,0 +1,120 @@
+@media (max-width: 1400px) {
+  .Right {
+    height: 75vh;
+    width: 55vw;
+  }
+}
+@media (max-width: 600px) {
+  .Hamburger {
+    display: block;
+    margin-top: 15px;
+    position: absolute;
+    left: 80%;
+  }
+  .Nav {
+    display: none;
+  }
+  .testimonial img {
+    height: 150px;
+  }
+  .Testimonials {
+    height: 100vh;
+  }
+}
+@media (max-width: 1200px) {
+  nav {
+    margin-top: 25px;
+    margin-bottom: 0px;
+  }
+  .Testimonials {
+    display: none;
+  }
+  .Main {
+    flex-direction: column;
+    height: 70vh;
+  }
+  .Left {
+    width: 100vw;
+  }
+  .Right {
+    background: url(./images/pngwing.jpg);
+    min-height: 80vh;
+    background-size: cover;
+    width: 45vw;
+    overflow: hidden;
+    display: none;
+  }
+  .W {
+    margin-left: 0px;
+  }
+  .Content h1 {
+    font-size: 50px;
+    margin: 30px 0;
+  }
+  .Content p {
+    margin-top: 12px;
+    font-size: 14px;
+  }
+  .Main2 {
+    flex-direction: column;
+  }
+  .Left2 {
+    height: 200vh;
+    width: 100vw;
+  }
+  .Right2 {
+    height: auto;
+    width: 100vw;
+  }
+  .Right2 ul li {
+    width: 100vw;
+  }
+
+  .T-C {
+    flex-direction: column;
+  }
+  .Card {
+    flex-direction: column;
+    margin-top: 200px;
+    align-items: start;
+  }
+  .Right3 {
+    flex-direction: column;
+    width: 100vw;
+  }
+  .card1 {
+    height: 20vh;
+    width: 100vw;
+    padding: 24px;
+    background-color: white;
+  }
+  .card2 {
+    height: 20vh;
+    width: 100vw;
+    padding: 24px;
+    background-color: rgb(255, 255, 86);
+  }
+  .Con {
+    margin-top: 320px;
+    height: 20vh;
+    font-size: 12px;
+    flex-direction: column;
+  }
+  .Left3 {
+    margin-top: 120px;
+    font-size: 20px;
+  }
+  .SL{
+    display: none;
+  }
+  .footer{
+    margin-top: 550px;
+    height: 30vh;
+  }
+  .F ul{
+    flex-direction: column;
+  }
+  .F ul li{
+    margin-top: 12px;
+  }
+}
