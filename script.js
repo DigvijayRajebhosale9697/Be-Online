@@ -79,7 +79,7 @@ T5.from('.review-head, .reviews-container ,.review-card', {
         scroller: 'body',
         // markers:true,
         start: 'top 90%',
-        end: 'top 40%',
+        end: 'top 50%',
         scrub: 5
     }
 })
