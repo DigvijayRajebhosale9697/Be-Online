@@ -12,25 +12,30 @@
   align-items: center;
   width: 100vw;
   height: 100vh;
+  /* flex-wrap: wrap; */
+}
+.Left {
+  height: 100vh;
+  width: 70vw;
 }
 .Hamburger {
-  font-size: 24px;
+  font-size: 4vw;
   cursor: pointer;
   display: none;
   direction: rtl;
 }
-.Left {
-  width: 60vw;
-}
+
 nav {
   display: flex;
   gap: 50px;
+  font-size: 1.5vw;
+  margin-top: 50px;
   margin-left: 50px;
   align-items: center;
-  margin-bottom: 90px;
 }
+
 nav button {
-  padding: 8px 24px;
+  padding: 1vw 1.8vw;
   background: transparent;
   border: 1px solid;
   border-radius: 12px;
@@ -43,17 +48,21 @@ nav ul {
 nav ul a {
   text-decoration: none;
   color: #000;
+  transition: 0.5s ease-in-out;
+}
+nav ul a:hover {
+  text-decoration: none;
+  color: #ff0000;
 }
 .Content {
   margin: 50px;
 }
 .Content h1 {
-  font-size: 70px;
-  margin: 30px 0;
+  font-size: 5vw;
 }
 .Content button {
-  margin-top: 40px;
-  padding: 14px 40px;
+  margin-top: 20px;
+  padding: 1vw 1.8vw;
 }
 .B {
   background-color: black;
@@ -63,7 +72,8 @@ nav ul a {
   transition: 0.5s ease-in-out;
 }
 .Content p {
-  font-size: 18px;
+  margin: 20px 0px;
+  font-size: 1.2vw;
 }
 .W {
   margin-left: 20px;
@@ -81,21 +91,22 @@ nav ul a {
   background-color: black;
   color: white;
 }
+
 .Right {
-  background: url(./images/black\ and\ yellow\ wallpaper\ black\ yellow\ wiz\ khalifa\ hd.png);
-  background-size: cover;
-  width: 45vw;
+  background-image: url(./images/black\ and\ yellow\ wallpaper\ black\ yellow\ wiz\ khalifa\ hd.png);
   height: 100vh;
+  width: 45vw;
   overflow: hidden;
 }
 .IMG-C img {
-  margin-left: 80px;
-  height: 625px;
+  margin-left: 4vw;
+  height: 42vmax;
 }
 .BTN {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  padding: 1vw 5vw;
 }
 .BTN button {
   margin-top: 40px;
@@ -125,13 +136,13 @@ nav ul a {
   justify-content: space-between;
   background-size: cover;
   height: 70vh;
-  width: 57vw;
+  width: 61vw;
 }
 .S ul li {
-  margin: 50px 0px;
+  margin: 46px 10px;
   text-decoration: none;
   list-style: none;
-  font-size: 30px;
+  font-size: 32px;
   color: rgb(225, 225, 0);
 }
 .Right2 {
@@ -157,23 +168,35 @@ nav ul a {
 }
 
 .Testimonials {
-  height: 30vh;
-  background-color: #fff; /* Set your desired background color */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #fff;
 }
 .T-C {
+  width: 100vw;
+  height: 30vh;
+  flex-wrap: wrap;
   display: flex;
   gap: 24px;
+  align-items: center;
+  justify-content: center;
 }
 
 .Card {
   background-color: rgb(245, 245, 245);
   height: 40vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
+}
+.Left3 {
+  display: flex;
+  /* align-items: center; */
+  justify-content: start;
+  flex-direction: column;
+}
+.Left3 button {
+  width: 15vmax;
 }
 .Card p {
   margin: 18px 0px;
@@ -204,7 +227,6 @@ nav ul a {
 .card2 p {
   font-size: 22px;
 }
-
 .card2 {
   height: 30vh;
   width: 18vw;
@@ -218,6 +240,7 @@ nav ul a {
 }
 
 .Con {
+  font-size: 2vw;
   height: 30vh;
   display: flex;
   justify-content: space-around;
@@ -225,7 +248,7 @@ nav ul a {
   background-color: rgb(255, 255, 109);
 }
 .Con button {
-  padding: 18px 50px;
+  padding: 1.2vw 1.5vw;
   background-color: white;
   color: black;
   border: none;
@@ -247,9 +270,10 @@ nav ul a {
   width: 45vw;
   background-position: center;
   background-size: cover;
+  overflow: hidden;
 }
 .Left5 img {
-  height: 558px;
+  height: 608px;
 }
 .Right5 {
   width: 55vw;
@@ -274,6 +298,10 @@ nav ul a {
 .C-S {
   margin: 20px;
 }
+
+.review-head{
+  font-size: 2vw;
+}
 .reviews-container {
   display: flex;
   flex-wrap: wrap;
@@ -281,6 +309,7 @@ nav ul a {
   align-items: stretch;
   height: 40vh;
   padding: 10px;
+  width: 100vw;
 }
 
 .review-card {
@@ -301,29 +330,29 @@ nav ul a {
 .review-card h3 {
   margin-top: 10px;
 }
-
 .review-content {
   font-size: 14px;
   line-height: 1.5;
   margin-top: 10px;
 }
-
 .review-head {
   margin-left: 110px;
   margin-top: 17px;
   font-weight: bolder;
 }
+
 .footer {
   background-color: black;
-  height: 20vh;
+  height: 30vh;
   color: white;
   text-align: center;
 }
-
 .F ul {
   align-items: center;
   justify-content: space-evenly;
   list-style: none;
-  margin-top: 40px;
+  /* margin-top: 40px; */
+  margin: 40px;
   display: flex;
+  flex-wrap: wrap;
 }
